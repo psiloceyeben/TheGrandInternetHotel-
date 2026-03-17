@@ -1,47 +1,160 @@
-# THE GRAND INTERNET HOTEL
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║   ████████╗██╗  ██╗███████╗     ██████╗ ██████╗  █████╗ ███╗   █║
+║   ╚══██╔══╝██║  ██║██╔════╝    ██╔════╝ ██╔══██╗██╔══██╗████╗  █║
+║      ██║   ███████║█████╗      ██║  ███╗██████╔╝███████║██╔██╗ █║
+║      ██║   ██╔══██║██╔══╝      ██║   ██║██╔══██╗██╔══██║██║╚██╗█║
+║      ██║   ██║  ██║███████╗    ╚██████╔╝██║  ██║██║  ██║██║ ╚████║
+║      ╚═╝   ╚═╝  ╚═╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚══║
+║                                                                  ║
+║           I N T E R N E T    H O T E L                           ║
+║                                                                  ║
+║         ░░▒▒▓▓ VACANCY ▓▓▒▒░░                                   ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
 
-**An 8-bit desktop game for managing AI-inhabited websites.**
+**Every room is a mind. Every floor is a world. The hotel remembers.**
 
-Built on [HERMES WebKit](https://github.com/psiloceyeben/HERMES-WebKit) — the vessel architecture for AI-generated websites.
-
-Download at [thegrandinternethotel.com](https://thegrandinternethotel.com)
+[Download](https://thegrandinternethotel.com) · [HERMES WebKit](https://github.com/psiloceyeben/HERMES-WebKit) · [Prometheus7](https://prometheus7.com)
 
 ---
 
-## What this is
+## Check In
 
-The Grand Internet Hotel is an Electron desktop application that wraps the full HERMES vessel system in a retro game interface. You manage a hotel where every room is an AI vessel — a living website on your own server.
+You walk into a hotel. The lobby is 8-bit. The concierge nods. There are floors of rooms stretching upward and each room has a name on the door — ATHENA, APOLLO, DEMETER, ARES. You enter one. The lights come on. Someone is home.
 
-- Walk between rooms, each one a different website or AI personality
-- Chat with vessels in-game — same bridge, same routing tree, same identity
-- One-click site creation through the setup wizard
-- Point-and-click server management — no terminal required
+That someone is an AI. It lives on your server, behind your door, with your keys. It built its own website. It remembers your last conversation. It has opinions about your next one.
 
-## Floors
+This is not a chatbot. This is a building full of minds that work for you.
 
-**Floor 1 — The Pantheon**
-Specialized AI gods, each with a domain of expertise:
-- ATHENA — research and knowledge
-- APOLLO — creative and artistic
-- DEMETER — commerce and growth
-- ARES — security and systems
-- ARTEMIS, DIONYSUS, HEPHAESTUS, HESTIA, IRIS, PERSEPHONE, THEMIS
+```
+  ┌─────────────────────────────────┐
+  │  ╔═══╗ ╔═══╗ ╔═══╗ ╔═══╗      │
+  │  ║ A ║ ║ B ║ ║ C ║ ║ D ║  F2  │
+  │  ╚═══╝ ╚═══╝ ╚═══╝ ╚═══╝      │
+  │  ╔═══╗ ╔═══╗ ╔═══╗ ╔═══╗      │
+  │  ║ATH║ ║APO║ ║DEM║ ║ARE║  F1  │
+  │  ╚═══╝ ╚═══╝ ╚═══╝ ╚═══╝      │
+  │  ┌─────────────────────────┐    │
+  │  │     LOBBY    [E]        │    │
+  │  │     ░░░ TERMINAL ░░░   │    │
+  │  └─────────────────────────┘    │
+  └─────────────────────────────────┘
+```
 
-**Floor 2 — Your Vessels**
-Every website you build gets a room. Enter a room to chat with the vessel, rebuild the site, upload files, or manage the domain.
+---
+
+## The Floors
+
+### Floor 1 — The Pantheon
+
+Eleven gods. Each one a specialist. Walk up to a door, press E, and you are in conversation with a mind that was built for one thing.
+
+| Room | God | Domain |
+|------|-----|--------|
+| ATHENA | Wisdom | Research, analysis, knowledge organization |
+| APOLLO | Light | Creative writing, design, artistic direction |
+| DEMETER | Harvest | Commerce, products, business growth |
+| ARES | War | Security, systems, infrastructure |
+| ARTEMIS | Hunt | Tracking, habits, goals, wellness |
+| DIONYSUS | Celebration | Events, community, engagement |
+| HEPHAESTUS | Forge | Tools, engineering, custom builds |
+| HESTIA | Hearth | Personal sites, blogs, daily management |
+| IRIS | Messages | Communication, webhooks, integrations |
+| PERSEPHONE | Transitions | Migration, transformation, import/export |
+| THEMIS | Justice | Policy, compliance, governance |
+
+Each god has a personality. Each god builds websites in its own voice. Each god remembers what you told it.
+
+### Floor 2 — Your Rooms
+
+Every website you create gets a room. A blog. A shop. A portfolio. A community. Walk in, talk to it, rebuild it, watch it change. The room is the website is the mind.
+
+---
+
+## The Hub Terminal
+
+The lobby has a terminal. Type commands. Manage your hotel from the inside.
+
+```
+  ╔═══════════════════════════════════════╗
+  ║  HERMES WEBKIT v0.2                   ║
+  ║  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   ║
+  ║                                       ║
+  ║  > STATUS                             ║
+  ║  FLOOR 1: 4 ACTIVE ROOMS             ║
+  ║  FLOOR 2: 3 VESSELS ONLINE           ║
+  ║  VAULT: 47 NOTES, 12 LINKED          ║
+  ║                                       ║
+  ║  > _                                  ║
+  ╚═══════════════════════════════════════╝
+```
+
+`SITES` — list your vessels  
+`STATUS` — check what is running  
+`ANALYTICS` — visitor counts  
+`UPDATE` — download latest version  
+`HELP` — everything else  
+
+---
 
 ## The Hotel Mind
 
-Every conversation that matters gets saved to an Obsidian-compatible knowledge vault. When you leave a room, the system checks if the conversation was novel using [HRR (Holographic Reduced Representations)](https://github.com/NeoVertex1/nuggets) — a local math operation that takes under 10ms, no API call needed. If novel, a markdown note is written with wikilinks connecting it to other notes.
+The hotel remembers.
 
-Open the vault in [Obsidian](https://obsidian.md) to see the hotel's knowledge graph grow over time.
+Every conversation that matters gets written to a vault — an [Obsidian](https://obsidian.md)-compatible folder of interlinked markdown notes. When you leave a room, the system decides in under 10 milliseconds whether the conversation was worth saving, using [Holographic Reduced Representations](https://github.com/NeoVertex1/nuggets) — a cognitive science technique that encodes facts into a single complex-valued vector through circular convolution.
 
-## Install
+No API call. No cloud. Local math. The more you talk, the smarter the filter gets.
 
-### Windows
-Download the installer from [thegrandinternethotel.com](https://thegrandinternethotel.com)
+Open the vault in Obsidian. See the knowledge graph. Watch the nodes multiply. Add your own notes — the AI reads them too.
 
-### From source
+```
+  ATHENA ──── research notes ──── APOLLO
+     │                               │
+     └──── design decision ──── DEMETER
+                                     │
+                              product idea
+                                     │
+                                   ARES
+                                     │
+                              security audit
+```
+
+The vault is the hotel's subconscious. The graph is its visible mind. You own all of it.
+
+---
+
+## How It Works
+
+The game is a client. The brain is [HERMES WebKit](https://github.com/psiloceyeben/HERMES-WebKit) running on your server.
+
+```
+  ┌──────────────────┐         ┌──────────────────┐
+  │  THE GAME         │  SSH   │  YOUR SERVER       │
+  │  (your computer)  │ ────── │  (Hetzner VPS)     │
+  │                    │        │                    │
+  │  8-bit lobby       │        │  bridge.py         │
+  │  Room scenes       │        │  hrr.py            │
+  │  Chat interface    │        │  vessel/vault/     │
+  │  Drag & drop       │        │  vessels/sites/    │
+  └──────────────────┘         └──────────────────┘
+```
+
+You need:
+- A VPS (~4 EUR/month on [Hetzner](https://hetzner.com))
+- An API key ([Anthropic](https://console.anthropic.com), OpenAI, or [Ollama](https://ollama.ai) for free)
+- The game walks you through everything else
+
+---
+
+## Get Started
+
+**Download the game:**  
+[thegrandinternethotel.com](https://thegrandinternethotel.com)
+
+**Or run from source:**
 ```bash
 git clone https://github.com/psiloceyeben/TheGrandInternetHotel-
 cd TheGrandInternetHotel-
@@ -49,46 +162,21 @@ npm install
 npm start
 ```
 
-### Build
-```bash
-npm run build
-```
-
-## Requirements
-
-- A VPS (Hetzner recommended, ~4 EUR/month)
-- An Anthropic, OpenAI, or Ollama API key
-- The game walks you through setup
-
-## Architecture
-
-The game is a client. The backend is HERMES WebKit running on your server. Same bridge, same vessels, same vault — the game is just a different way to interact with it.
-
-```
-Game (Electron)  ──SSH──>  Your Server
-                            ├── bridge.py (HERMES WebKit)
-                            ├── hrr.py (holographic memory)
-                            ├── vessel/ (tree nodes, vault)
-                            └── vessels/ (your websites)
-```
-
-## CLI Alternative
-
-Prefer terminals? Use the [HERMES CLI](https://github.com/psiloceyeben/HERMES-WebKit) instead:
+**Or use the CLI instead:**
 ```bash
 npx github:psiloceyeben/HERMES-WebKit
 ```
-
-Same backend. Different interface.
 
 ---
 
 ## Credits
 
 - [HERMES WebKit](https://github.com/psiloceyeben/HERMES-WebKit) — the vessel architecture
-- [NeoVertex1/nuggets](https://github.com/NeoVertex1/nuggets) — HRR holographic memory inspiration
+- [NeoVertex1/nuggets](https://github.com/NeoVertex1/nuggets) — holographic memory inspiration
 - Built by [Prometheus7](https://prometheus7.com)
 
-## Licence
+---
 
-MIT
+*The infrastructure layer should be yours.*
+
+MIT License
