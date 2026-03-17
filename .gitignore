@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-packaged/
+*.exe
+*.AppImage
+*.deb
+*.dmg
+*.zip
+*.blockmap
+.env
+.env.*
+*.pem
+*.key
+config.json

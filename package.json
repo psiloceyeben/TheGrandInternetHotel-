@@ -1,0 +1,65 @@
+{
+  "name": "grand-internet-hotel",
+  "version": "1.0.0",
+  "description": "The Grand Internet Hotel — an 8-bit game client for managing your web presence through the pantheon of internet gods. Deploy websites, stores, and services through an immersive retro hotel interface.",
+  "author": {
+    "name": "Prometheus7",
+    "email": "dev@prometheus7.com",
+    "url": "https://prometheus7.com"
+  },
+  "homepage": "https://prometheus7.com",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux",
+    "build:all": "electron-builder --win --mac --linux",
+    "dev": "electron . --dev"
+  },
+  "build": {
+    "appId": "com.prometheus7.grand-internet-hotel",
+    "productName": "Grand Internet Hotel",
+    "copyright": "Copyright © 2025-2026 Prometheus7",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico",
+      "signAndEditExecutable": false
+    },
+    "mac": {
+      "target": "zip",
+      "icon": "assets/icon.png",
+      "category": "public.app-category.utilities"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "icon": "assets/icon.png",
+      "category": "Utility"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico",
+      "installerHeaderIcon": "assets/icon.ico",
+      "shortcutName": "Grand Internet Hotel"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*",
+      "assets/**/*",
+      "node_modules/**/*"
+    ]
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "node-ssh": "^13.2.0",
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  }
+}
