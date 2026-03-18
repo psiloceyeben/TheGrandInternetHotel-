@@ -159,7 +159,7 @@ npx github:psiloceyeben/HERMES-WebKit
 ## Credits
 
 - [HERMES WebKit](https://github.com/psiloceyeben/HERMES-WebKit) — the vessel architecture
-- [NeoVertex1/nuggets](https://github.com/NeoVertex1/nuggets) — holographic memory inspiration
+- [NeoVertex1/nuggets](https://github.com/NeoVertex1/nuggets) — holographic memory implimentation
 - Built by [Prometheus7](https://prometheus7.com)
 
 ---
